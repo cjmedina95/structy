@@ -1,7 +1,5 @@
 const mostFrequentChar = (s) => {
-  let max_length = 0;
   let letter = null;
-
   let count = {};
   
   for (let char of s) {
