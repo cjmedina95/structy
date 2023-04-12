@@ -1,4 +1,6 @@
 const uncompress = (s) => {
+  
+  // Due to runtime complexity, an array is used rather than string concatenation with +=.
   let uncompressed_string = [];
   const numbers = '0123456789'
   
